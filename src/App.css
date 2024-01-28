@@ -1,0 +1,92 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  background-color: #fff;
+  height: 450px;
+  width: 398px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0%;
+  margin-left: 8%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.forgotPassword {
+  color: #0056b3;
+  margin-right: 0%;
+}
+
+.firstContainer {
+  height: 80vh;
+}
+.firstContainer-image{
+  display: flex;
+  min-width: 1500px;
+  height: 80vh;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+
+}
+.card__inner {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 160px;
+  right: 0px;
+  z-index: 1;
+  width: 315px;
+  opacity: 0;
+  padding: 2rem 1.3rem 2rem 2rem;
+  transition: all 0.4s ease 0s;
+}
+.card:hover .card__inner {
+  opacity: 1;
+}
+
+/*  General property for heading
+  and paragraph*/
+.card__inner h2 {
+  margin-top: 1rem;
+}
+
+.card__inner p {
+  height: 90%;
+  padding-right: 1rem;
+ 
+}
